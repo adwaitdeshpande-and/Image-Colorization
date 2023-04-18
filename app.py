@@ -79,7 +79,6 @@ else:
     color = colorizer(img)
     
     col2.image(color)
-    st.sidebar.download_button("Download colored image")    
     print("done!")
 
 
